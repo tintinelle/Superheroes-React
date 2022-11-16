@@ -1,0 +1,24 @@
+.hero-wrap {
+    width: 40%;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+
+    line-height: 150%;
+
+    background-color: #C3BFD9;
+}
+
+.title {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.subtitle {
+    font-weight: 700;
+} 
+
+.img {
+    width: 100%;
+    margin: 10px auto;
+}
