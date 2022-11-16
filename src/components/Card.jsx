@@ -4,13 +4,13 @@ function Card (props) {
     return (
         <div className='hero-wrap'>
             <h2 className='title'>{props.name}</h2>
-            <div>Вселенная: {props.universe}</div>
-            <div>Альтер эго: {props.alterEgo}</div>
-            <div>Род деятельности: {props.occupation}</div>
-            <div>Друзья: {props.friends}</div>
-            <div>Суперсилы: {props.power}</div>
+            <div><span className='subtitle'>Вселенная:</span> {props.universe}</div>
+            <div> <span className='subtitle'>Альтер эго:</span> {props.alterEgo}</div>
+            <div> <span className='subtitle'>Род деятельности:</span> {props.occupation}</div>
+            <div> <span className='subtitle'>Друзья:</span> {props.friends}</div>
+            <div> <span className='subtitle'>Суперсилы:</span> {props.power}</div>
             <img src={props.url} className='img'/>
-            <div>Подробнее: {props.details}</div>
+            <div> <span className='subtitle'>Подробнее:</span> {props.details}</div>
         </div>
     );
 }
