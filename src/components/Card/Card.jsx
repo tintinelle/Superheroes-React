@@ -1,4 +1,4 @@
-import './../style/Card.css';
+import './Card.css';
 
 function Card (props) {
     return (
@@ -9,7 +9,7 @@ function Card (props) {
             <div> <span className='subtitle'>Род деятельности:</span> {props.occupation}</div>
             <div> <span className='subtitle'>Друзья:</span> {props.friends}</div>
             <div> <span className='subtitle'>Суперсилы:</span> {props.power}</div>
-            <img src={props.url} className='img'/>
+            <img alt='hero_picture' src={props.url} className='img'/>
             <div> <span className='subtitle'>Подробнее:</span> {props.details}</div>
         </div>
     );

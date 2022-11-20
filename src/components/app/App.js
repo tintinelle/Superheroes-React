@@ -1,12 +1,13 @@
-import './../../style/App.css';
-import Card from './../Card.jsx';
-import heroes from './../../heroes.json';
+import './App.css';
+import Card from '../Card/Card.jsx';
+import data from '../../data/data.json';
 
 function App() {
   return (
     <div className="App">
+
       {
-      heroes.map((hero) =>
+      data.map((hero) =>
       <Card 
       name={hero.heroName} 
       universe={hero.universe} 
